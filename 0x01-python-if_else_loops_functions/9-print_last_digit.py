@@ -6,4 +6,3 @@ def print_last_digit(number):
     else:
         lastDigit = int(str(number)[-1])
     return lastDigit
-
