@@ -3,6 +3,6 @@ import add_0
 
 a = 1
 b = 2
-sUm = add(a, b)
+sUm = add_0.add(a, b)
 
 print("{} + {} = {}".format(a, b, sUm))
