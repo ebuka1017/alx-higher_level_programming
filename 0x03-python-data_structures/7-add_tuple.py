@@ -15,5 +15,5 @@ def add_tuple(tuple_a=(), tuple_b=()):
 
     suml = [x + y for x, y in zip(a, b)]
     sumt = tuple(suml)
-    
+
     return sumt
