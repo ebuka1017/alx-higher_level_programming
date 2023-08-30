@@ -1,9 +1,4 @@
-#!/usr/bin/python2
-"""
-Square module
-"""
-
-
+#!/usr/bin/python3
 class Square:
     """creates a square class"""
     def __init__(self, size):
