@@ -62,4 +62,4 @@ class Rectangle:
 
     def __del__(self):
         """signifies rectangle deletion"""
-        print("Bye rectangle...")
+        print("{}".formar("Bye rectangle..."))
