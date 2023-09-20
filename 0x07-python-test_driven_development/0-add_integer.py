@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """func to add ints"""
 
+
 def add_integer(a, b=98):
     """adds two ints a & b"""
     if not isinstance(a, (int, float)):
@@ -8,4 +9,4 @@ def add_integer(a, b=98):
     if not isinstance(b, (int, float)):
         raise TypeError("b must be an integer")
 
-    return int(a) + int(b) 
+    return int(a) + int(b)
