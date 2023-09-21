@@ -4,5 +4,4 @@
 
 def copy_list(l):
     """creates new list"""
-    a = list(l)
-    return a
+    return l[:]
